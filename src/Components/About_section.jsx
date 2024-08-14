@@ -5,7 +5,7 @@ function AboutSection() {
   return (
     <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
-        {/* Image Section */}
+        
         <div className="relative lg:w-1/2 lg:h-auto overflow-hidden rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500">
           <img
             src={smilling}
@@ -15,7 +15,7 @@ function AboutSection() {
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-70"></div>
         </div>
 
-        {/* Text Section */}
+        
         <div className="lg:w-1/2 mt-8 lg:mt-0 lg:ml-12 p-6 sm:p-8 lg:p-10 bg-white rounded-lg shadow-xl transform hover:-translate-y-2 transition-transform duration-500">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-blue-900 mb-4 sm:mb-6">
             About Us

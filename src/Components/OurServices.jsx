@@ -5,12 +5,6 @@ import p3 from '../assets/p3.png'
 import p4 from '../assets/p4.png'
 import p5 from '../assets/p5.png'
 import p6 from '../assets/p6.png'
-// import auditingImage from '../assets/Component 26.png';
-// import transferpricing from '../assets/Component 27.png';
-// import CompanyFormation from '../assets/Component 28.png';
-// import BusinessTaxation from '../assets/Component 29.png';
-// import Taxation from '../assets/Component 30.png';
-// import Corporate from '../assets/Component 31.png';
 
 const ServiceCard = ({ imageSrc, title }) => (
   <div className="relative rounded-lg overflow-hidden  group">

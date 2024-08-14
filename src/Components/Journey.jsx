@@ -4,7 +4,6 @@ const Journey = () => {
   return (
     <div className="bg-gray-50  py-12 px-6 lg:px-16">
       <div className="max-w-6xl mx-auto">
-        {/* Our Journey Section */}
         <div className="mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-blue-900 mb-6 text-center">
             Our Journey (History)
@@ -31,7 +30,6 @@ const Journey = () => {
           </ul>
         </div>
 
-        {/* Why Choose Us Section */}
         <div className="mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-blue-900 mb-6 text-center">
             Why Choose Insha Carpets and Rugs
@@ -56,7 +54,6 @@ const Journey = () => {
           </div>
         </div>
 
-        {/* Dedication to Handmade Elegance Section */}
         <div className="bg-blue-900 text-white p-8 rounded-lg">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center">
             Our Dedication to Handmade Elegance
