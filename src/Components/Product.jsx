@@ -2,12 +2,12 @@ import React from "react";
 
 const Product = () => {
   const products = [
-    { image: "/src/assets/p1.png", title: "Handmade Carpet 1" },
-    { image: "/src/assets/p5.png", title: "Handmade Carpet 2" },
-    { image: "/src/assets/p6.png", title: "Handmade Carpet 3" },
-    { image: "/src/assets/p4.png", title: "Handmade Carpet 4" },
-    { image: "/src/assets/p3.png", title: "Handmade Carpet 5" },
-    { image: "/src/assets/p2.png", title: "Handmade Carpet 6" },
+    { image: "/assets/p1.png", title: "Handmade Carpet 1" },
+    { image: "/assets/p5.png", title: "Handmade Carpet 2" },
+    { image: "/assets/p6.png", title: "Handmade Carpet 3" },
+    { image: "/assets/p4.png", title: "Handmade Carpet 4" },
+    { image: "/assets/p3.png", title: "Handmade Carpet 5" },
+    { image: "/assets/p2.png", title: "Handmade Carpet 6" },
   ];
 
   return (
@@ -19,7 +19,7 @@ const Product = () => {
         {products.map((product, index) => (
           <div
             key={index}
-            className="relative p-4 bg-white rounded-lg shadow-lg hover:shadow-2xl  transform hover:-translate-y-2 hover:scale-105 transition-transform duration-300 ease-in-out"
+            className="relative p-4 bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-2 hover:scale-105 transition-transform duration-300 ease-in-out"
           >
             <div className="w-full h-64 overflow-hidden rounded-lg">
               <img
